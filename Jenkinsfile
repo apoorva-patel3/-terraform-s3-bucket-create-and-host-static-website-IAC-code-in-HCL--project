@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ('pull code from github') {
             steps {
-                git branch: 'master', url: 'https://github.com/rajeshark/terraform-s3-bucket-create-and-host-static-website-IAC-code-in-HCL--project.git'
+                git branch: 'master', url: 'https://github.com/apoorva-patel3/-terraform-s3-bucket-create-and-host-static-website-IAC-code-in-HCL--project.git'
             }
         }
    
